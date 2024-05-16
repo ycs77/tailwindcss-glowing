@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-glowup",
+  "name": "tailwindcss-glowing",
   "version": "0.1.0",
   "description": "A plugin for Tailwind CSS v3.0+ that provides utilities for glow.",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
     "src/*.d.ts",
     "dist/"
   ],
-  "repository": "https://github.com/ycs77/tailwindcss-glowup",
+  "repository": "https://github.com/ycs77/tailwindcss-glowing",
   "license": "MIT",
   "peerDependencies": {
     "tailwindcss": ">=3.0.0 || insiders"

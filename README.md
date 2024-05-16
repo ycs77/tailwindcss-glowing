@@ -1,4 +1,4 @@
-# Tailwind CSS Glow
+# Tailwind CSS Glowing
 
 A plugin for Tailwind CSS v3.0+ that provides utilities for glow.
 
@@ -7,9 +7,9 @@ A plugin for Tailwind CSS v3.0+ that provides utilities for glow.
 Install the plugin from npm or yarn:
 
 ```bash
-npm i -D tailwindcss-glowup
+npm i -D tailwindcss-glowing
 # or yarn
-yarn add -D tailwindcss-glowup
+yarn add -D tailwindcss-glowing
 ```
 
 Then add the plugin to your `tailwind.config.js` file:
@@ -21,7 +21,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('tailwindcss-glowup'),
+    require('tailwindcss-glowing'),
     // ...
   ],
 }
@@ -31,7 +31,7 @@ module.exports = {
 
 Now you can add the glow class to any vanilla HTML:
 
-```
+```html
 <div class="glow-sky-500 bg-sky-500"></div>
 ```
 
