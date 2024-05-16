@@ -32,7 +32,16 @@ module.exports = {
 Now you can add the glow class to any vanilla HTML:
 
 ```html
-<div class="glow-sky-500 bg-sky-500"></div>
+<div class="glow glow-sky-500"></div>
+```
+
+Use the `glow-sm`, `glow`, `glow-md`, `glow-lg`, `glow-xl`, or `glow-2xl` utilities to apply different sized outer grow to an element:
+
+```html
+<div class="glow-md ..."></div>
+<div class="glow-lg ..."></div>
+<div class="glow-xl ..."></div>
+<div class="glow-2xl ..."></div>
 ```
 
 ## License

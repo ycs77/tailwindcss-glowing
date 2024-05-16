@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind CSS Glowing Demo</title>
   </head>
-  <body class="font-sans antialiased h-screen p-6 bg-slate-950">
-    <div class="w-10 h-10 bg-teal-300 glow-teal-300 rounded-md"></div>
+  <body class="font-sans antialiased h-screen p-8 bg-slate-950">
+    <div class="flex space-x-8">
+      <div class="w-10 h-10 bg-teal-300 rounded-md glow-sm glow-teal-300"></div>
+      <div class="w-10 h-10 bg-teal-300 rounded-md glow glow-teal-300"></div>
+      <div class="w-10 h-10 bg-teal-300 rounded-md glow-md glow-teal-300"></div>
+      <div class="w-10 h-10 bg-teal-300 rounded-md glow-lg glow-teal-300"></div>
+      <div class="w-10 h-10 bg-teal-300 rounded-md glow-xl glow-teal-300"></div>
+    </div>
 
     <script type="module" src="/main.js"></script>
   </body>
