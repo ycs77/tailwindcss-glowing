@@ -1,6 +1,6 @@
 const plugin = require('tailwindcss/plugin')
-const flattenColorPalette = require('tailwindcss/lib/util/flattenColorPalette')
-const withAlphaVariable = require('tailwindcss/lib/util/withAlphaVariable')
+const { default: flattenColorPalette } = require('tailwindcss/lib/util/flattenColorPalette')
+const { default: withAlphaVariable } = require('tailwindcss/lib/util/withAlphaVariable')
 
 module.exports = plugin(({ matchUtilities, theme }) => {
   matchUtilities({
@@ -26,4 +26,9 @@ module.exports = plugin(({ matchUtilities, theme }) => {
       '--tw-glow-opacity': value,
     }),
   }, { values: theme('glowOpacity') })
+}, {
+  theme: {
+    glowColor: ({ theme }) => theme('colors'),
+    glowOpacity: ({ theme }) => theme('opacity'),
+  },
 })
