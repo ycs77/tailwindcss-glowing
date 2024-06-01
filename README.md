@@ -1,5 +1,9 @@
 # Tailwind CSS Glowing
 
+[![NPM version][ico-version]][link-npm]
+[![Software License][ico-license]](LICENSE)
+[![Total Downloads][ico-downloads]][link-downloads]
+
 A plugin for Tailwind CSS v3.0+ that provides utilities for glow.
 
 ## Installation
@@ -47,3 +51,10 @@ Use the `glow-sm`, `glow`, `glow-md`, `glow-lg`, `glow-xl`, or `glow-2xl` utilit
 ## License
 
 Under the [MIT LICENSE](LICENSE.md)
+
+[ico-version]: https://img.shields.io/npm/v/tailwindcss-glowing?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square
+[ico-downloads]: https://img.shields.io/npm/dt/tailwindcss-glowing?style=flat-square
+
+[link-npm]: https://www.npmjs.com/package/tailwindcss-glowing
+[link-downloads]: https://www.npmjs.com/package/tailwindcss-glowing
