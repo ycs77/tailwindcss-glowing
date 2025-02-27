@@ -4,6 +4,9 @@
 [![Software License][ico-license]](LICENSE)
 [![Total Downloads][ico-downloads]][link-downloads]
 
+> [!WARNING]
+> This plugin only supports Tailwind CSS v3 and will not be updated.
+
 A plugin for Tailwind CSS v3.0+ that provides utilities for glow.
 
 ## Installation
